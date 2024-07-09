@@ -2,6 +2,7 @@
   "name": "prisha",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://vall3y.github.io/prisha",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
