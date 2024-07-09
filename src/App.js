@@ -117,7 +117,10 @@ function App() {
       </header>
       <h1>
         Wealth after {years} years:{" "}
-        {eventualWealth.toLocaleString(undefined, { maximumFractionDigits: 0 })}
+        {eventualWealth &&
+          eventualWealth.toLocaleString(undefined, {
+            maximumFractionDigits: 0,
+          })}
       </h1>
     </div>
   );
